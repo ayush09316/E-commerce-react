@@ -8,6 +8,7 @@ import Pages from './components/Pages';
 import Blog from './components/Blog';
 import Brand from './components/Brand'
 import Shop from './components/Shop';
+import Menu from './components/Menu';
 
 
 const App = () => {
@@ -17,9 +18,10 @@ const App = () => {
     <div>
       <Navbar data={data}setData={setData}badge={badge}setBadge={setBadge}/>
       <Routes>
-      <Route path='/' element={<Home setBadge={setBadge}setData={setData}data={data}/>}/>
+      <Route path='/'index element={<Home setBadge={setBadge}setData={setData}data={data}/>}/>
       <Route path='/brands' element={<Brand/>}/>
       <Route path='/shop' element={<Shop/>}/>
+      <Route path='/menu' element={<Menu/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/pages' element={<Pages/>}/>
       <Route path='/contact' element={<Contact/>}/>

@@ -8,13 +8,11 @@ import {useGlobalContext  } from './context';
 
 const Home = ({setBadge,data,setData}) => {
   const {isLoading,products}=useGlobalContext();
-  const onSearch = (searchTerm) => {
-    setData("");
+  const onSearch = () => {
     window.scrollTo({ top: 900, behavior: "smooth" });
   };
 
   let dataSearch=products.filter(ele=>{
-    
     return Object.keys(ele).some(key=>ele[key].toString().toLowerCase().includes(data.toString().toLowerCase())
       )
   });

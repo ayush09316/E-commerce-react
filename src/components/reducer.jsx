@@ -6,11 +6,6 @@ const reducer =(state,action)=>{
                 isLoading:false,
                 products:action.payload.products,
             }
-        // case "SEARCH_QUERY":
-        //     return{
-        //         ...state,
-        //         query:action.payload,
-        //     }
         case "SET_LOADING":
             return{
                 ...state,

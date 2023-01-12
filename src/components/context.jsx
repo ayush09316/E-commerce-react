@@ -31,12 +31,7 @@ const AppProvider=({children})=>{
       console.log(error);
     }
   };
-  // const searchPost=(searchQuery)=>{
-  //   dispatch({
-  //     type:'SEARCH_QUERY',
-  //     payload:searchQuery,
-  //   })
-  // }
+  
   
   useEffect(()=>{
     fetchData(`${url} `);
