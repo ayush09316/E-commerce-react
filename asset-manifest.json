@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/E-commerce-react/static/css/main.d5e10576.css",
+    "main.js": "/E-commerce-react/static/js/main.43d99667.js",
+    "static/media/car2.jpg": "/E-commerce-react/static/media/car2.19348bbea9d4a340c665.jpg",
+    "static/media/logo2.png": "/E-commerce-react/static/media/logo2.405f1d17a5a5e17558fc.png",
+    "static/media/logo3.png": "/E-commerce-react/static/media/logo3.adb74aec8325d77f146d.png",
+    "static/media/pic-1.png": "/E-commerce-react/static/media/pic-1.b105fe43e8bf62808d9f.png",
+    "static/media/pic-2.png": "/E-commerce-react/static/media/pic-2.5d5e42bfc8bc3622b556.png",
+    "static/media/logo1.png": "/E-commerce-react/static/media/logo1.2d5f026c1ded3ee6c1d2.png",
+    "static/media/pic.png": "/E-commerce-react/static/media/pic.1ef1ecba9db4ad9c12c8.png",
+    "static/media/visa.png": "/E-commerce-react/static/media/visa.53412106e5dd0cc322c5.png",
+    "static/media/discover.png": "/E-commerce-react/static/media/discover.b04287a7c19559649250.png",
+    "static/media/income.png": "/E-commerce-react/static/media/income.2888628571f8cc3ef530.png",
+    "static/media/paypal.png": "/E-commerce-react/static/media/paypal.ae62fa3dec7db39289ea.png",
+    "index.html": "/E-commerce-react/index.html",
+    "main.d5e10576.css.map": "/E-commerce-react/static/css/main.d5e10576.css.map",
+    "main.43d99667.js.map": "/E-commerce-react/static/js/main.43d99667.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e10576.css",
+    "static/js/main.43d99667.js"
+  ]
+}
